@@ -10,8 +10,6 @@ import os
 robotear=sr.Recognizer()
 robotmouth = pyttsx3.init()
 robotbrain=""
-#Chon ngon ngu:
-#Ngon_ngu = input('Please chosse: \n1.Eng \n2.Vi \n  ')
 while True:
 	#Xu li mang nghe
 	robotear.energy_threshold=4000
